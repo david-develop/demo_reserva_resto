@@ -1,0 +1,135 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sq4eq4');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?sq4eq4') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?sq4eq4') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?sq4eq4##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="bistro-icon-"], [class*=" bistro-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bistro-icon-arrow_1 {
+  &:before {
+    content: $bistro-icon-arrow_1; 
+  }
+}
+.bistro-icon-arrow_2 {
+  &:before {
+    content: $bistro-icon-arrow_2; 
+  }
+}
+.bistro-icon-arrow_3 {
+  &:before {
+    content: $bistro-icon-arrow_3; 
+  }
+}
+.bistro-icon-arrow_4 {
+  &:before {
+    content: $bistro-icon-arrow_4; 
+  }
+}
+.bistro-icon-arrow_5 {
+  &:before {
+    content: $bistro-icon-arrow_5; 
+  }
+}
+.bistro-icon-check {
+  &:before {
+    content: $bistro-icon-check; 
+  }
+}
+.bistro-icon-ic_bag {
+  &:before {
+    content: $bistro-icon-ic_bag; 
+  }
+}
+.bistro-icon-ic_cart {
+  &:before {
+    content: $bistro-icon-ic_cart; 
+  }
+}
+.bistro-icon-ic_facebook {
+  &:before {
+    content: $bistro-icon-ic_facebook; 
+  }
+}
+.bistro-icon-ic_hearing {
+  &:before {
+    content: $bistro-icon-ic_hearing; 
+  }
+}
+.bistro-icon-ic_instagram {
+  &:before {
+    content: $bistro-icon-ic_instagram; 
+  }
+}
+.bistro-icon-ic_laptop {
+  &:before {
+    content: $bistro-icon-ic_laptop; 
+  }
+}
+.bistro-icon-ic_money {
+  &:before {
+    content: $bistro-icon-ic_money; 
+  }
+}
+.bistro-icon-ic_music {
+  &:before {
+    content: $bistro-icon-ic_music; 
+  }
+}
+.bistro-icon-ic_sound {
+  &:before {
+    content: $bistro-icon-ic_sound; 
+  }
+}
+.bistro-icon-ic_twitter {
+  &:before {
+    content: $bistro-icon-ic_twitter; 
+  }
+}
+.bistro-icon-ic_video {
+  &:before {
+    content: $bistro-icon-ic_video; 
+  }
+}
+.bistro-icon-menu {
+  &:before {
+    content: $bistro-icon-menu; 
+  }
+}
+.bistro-icon-search_1 {
+  &:before {
+    content: $bistro-icon-search_1; 
+  }
+}
+.bistro-icon-search_2 {
+  &:before {
+    content: $bistro-icon-search_2; 
+  }
+}
+.bistro-icon-star {
+  &:before {
+    content: $bistro-icon-star; 
+  }
+}
+
